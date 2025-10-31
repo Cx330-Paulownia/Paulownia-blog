@@ -252,11 +252,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:bilibili",
 			url: "https://space.bilibili.com/3493088685198058",
 		},
-  {
-   name: "CloudMusic",
-   icon: "i-ri-netease-cloud-music-line",
-   url: "https://y.music.163.com/m/user?id=12280005846",
-  },
+  #{
+   #name: "CloudMusic",
+   #icon: "i-ri-netease-cloud-music-line",
+   #url: "https://y.music.163.com/m/user?id=12280005846",
+  #},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
