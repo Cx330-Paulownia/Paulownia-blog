@@ -21,7 +21,7 @@ const SITE_LANG = "zh-CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "泡桐の小窝",
-	subtitle: "迎接每一次日升",
+	subtitle: "",
 
 	lang: SITE_LANG,
 
@@ -101,7 +101,7 @@ export const siteConfig: SiteConfig = {
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
 
 		carousel: {
-			enable: false, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
+			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
 			interval: 1.5, // 轮播间隔时间（秒）
 		},
@@ -122,14 +122,12 @@ export const siteConfig: SiteConfig = {
 		// 请自行搭建API
 
 		homeText: {
-			enable: false, // 在主页显示自定义文本
-			title: "Ciallo～ (∠・ω< )⌒★", // 主页横幅主标题
+			enable: true, // 在主页显示自定义文本
+			title: "Paulownia"
+			// 主页横幅主标题
 
 			subtitle: [
-				"这里是泡桐の小窝",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"泡桐の小窝",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -202,7 +200,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
-		enable: true, // 启用轮播
+		enable: false, // 启用轮播
 		interval: 1, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
@@ -257,6 +255,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/Cx330-Paulownia",
 		},
+		{
+     name: "CloudMusic",
+     icon: "ri-netease-cloud-music-line",
+     url: "https://y.music.163.com/m/user?id=12280005846",
+    },
 		{
 			name: "Telegram",
 			icon: "fa6-brands:telegram",
