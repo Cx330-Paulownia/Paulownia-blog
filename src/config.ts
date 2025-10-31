@@ -254,7 +254,7 @@ export const profileConfig: ProfileConfig = {
 		},
   {
    name: "CloudMusic",
-   icon: "ri:netease-cloud-music-line",
+   icon: "i-ri-netease-cloud-music-line",
    url: "https://y.music.163.com/m/user?id=12280005846",
   },
 		{
