@@ -123,11 +123,11 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Paulownia"
+			title: "Paulownia",
 			// 主页横幅主标题
 
 			subtitle: [
-				"泡桐の小窝",
+     "泡桐の小窝",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
